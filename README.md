@@ -36,7 +36,7 @@ app.UseResponseCaching();
 
 ```
 
-### Caching responses: Controller
+ProductsController.cs
 
 ```
 [ApiController]
