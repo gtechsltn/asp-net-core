@@ -200,6 +200,8 @@ https://github.com/andissanayake/UnifiedApp/
 
 https://dotnettutorials.net/lesson/token-based-authentication-web-api/
 
+https://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
+
 ## .NET Web API Unit Testing with xUnit
 
 https://medium.com/@microclip.lakeesha/net-web-api-unit-testing-with-xunit-7da76324cd25
