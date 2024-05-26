@@ -186,14 +186,25 @@ ASP.NET 8 Token Authentication for Web API and React with Integration Testing(Pa
 
 https://medium.com/@disa2aka/token-authentication-integration-testing-asp-net-32bdab0f9967
 
-## Token Based Authentication Template ASP.NET, React, Ant Design, Redux.
+## Token Based Authentication Template ASP.NET Core 6.0
+
+https://medium.com/@microclip.lakeesha/net-core-6-token-based-authentication-and-middleware-43a5fc86089a
+
+https://github.com/LakeeshaRCL/Dotnet-6-Web-API/
+
+## Token Based Authentication Template ASP.NET Core 8.0, React, Ant Design, Redux.
 
 https://github.com/andissanayake/UnifiedApp/
 
-## Token Based Authentication in ASP.NET Web API
+## Token Based Authentication in ASP.NET Web API 2.0
 
 https://dotnettutorials.net/lesson/token-based-authentication-web-api/
 
+## .NET Web API Unit Testing with xUnit
+
+https://medium.com/@microclip.lakeesha/net-web-api-unit-testing-with-xunit-7da76324cd25
+
+https://github.com/LakeeshaRCL/dotnet-8-web-api-with-unit-tests/
 
 ## Pagination in a .NET Web API with EF Core
 
