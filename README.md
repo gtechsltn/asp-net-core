@@ -135,10 +135,42 @@ public class SessionContextAccessor : ISessionContextAccessor
     this._sessionContextService = sessionContextService;
   }
 
+  public string SessionId
+  {
+    get
+    {
+      // Implement your own way to persist session information.
+      return this._httpContextAccessor
+        .HttpContext.Request.Cookies["sessionId"].Value;
+    }
+  }
+
+  public UserContext GetUserContext()
+  {
+    var userModel = this._sessionContextService
+      .GetUserBySessionId(this.sessionId);
+    
+    if (userModel != null)
+    {
+      return new UserContext
+      {
+        UserId = userModel.UserId,
+        FirstName = userModel.FirstName,
+        LastName = userModel.LastName,
+        EmailAddress = userModel.EmailAddress,
+        PhoneNumber = userModel.PhoneNumber
+      };
+    }
+    
+    return null;
+  }
+
   // ...
 
 }
 ```
+
+Above, SessionContextAccessor is again a delegation of a custom SessionContextService service class where we are accessing Session ID through a cookie. Feel free to change the strategy to persist session information yourself whether it be a Claim Provider or any other means.
 
 ## Unit Testing
 
